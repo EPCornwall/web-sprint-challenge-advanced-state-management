@@ -6,8 +6,3 @@ export{
     FETCH_SMURFS_ERROR,
     fetchSmurfs
 } from './smurfActions'
-
-export{
-handleFormChange,
-submitForm
-} from './formActions'
