@@ -16,7 +16,7 @@ export const POST_SMURF = "POST_SMURF"
 export const fetchSmurfs = () => {
     return(dispatch) => {
         dispatch({type: FETCH_SMURFS});
-        axios.get("/smurfs")
+        axios.get("http://localhost:3333/smurfs")
         .then((res) =>{
             console.log(res);
             dispatch({type:FETCH_SMURFS_SUCCESS, payload: res.data})
