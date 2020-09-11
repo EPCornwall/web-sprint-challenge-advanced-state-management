@@ -2,14 +2,15 @@
 import{
     FETCH_SMURFS,
     FETCH_SMURFS_SUCCESS,
-    FETCH_SMURFS_ERROR
+    FETCH_SMURFS_ERROR,
+    UPDATE_FORM
 } from '../actions';
 
 ///set initial state
 const initialState = {
     smurfs: [],
     loadingSmurfs: true,
-    errorMessage: ""
+    errorMessage: "",
 }
 
 

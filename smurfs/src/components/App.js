@@ -3,6 +3,7 @@ import "./App.css";
 import Smurfs from './Smurfs'
 import {connect} from 'react-redux';
 import {fetchSmurfs} from '../store/actions'
+import Form from './Form'
 
 
 function App ({fetchSmurfs, loadingSmurfs, errorMessage}) {
@@ -14,6 +15,7 @@ function App ({fetchSmurfs, loadingSmurfs, errorMessage}) {
         <h1>SMURFS! W/Redux</h1>
         {!loadingSmurfs ? <Smurfs /> : <div>... Loading Smurfs</div>}
         {errorMessage !== "" ? <div> {errorMessage} </div> : null}
+        <Form />
       </div>
     );
 }

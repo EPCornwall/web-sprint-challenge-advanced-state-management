@@ -4,7 +4,7 @@ import axios from 'axios';
 export const FETCH_SMURFS = "FETCH_SMURFS"
 export const FETCH_SMURFS_SUCCESS = "FETCH_SMURFS_SUCCESS"
 export const FETCH_SMURFS_ERROR = "FETCH_SMURFS_ERROR"
-export const POST_SMURF = "POST_SMURF" 
+
 
 
 //functions to dispatch actions async
